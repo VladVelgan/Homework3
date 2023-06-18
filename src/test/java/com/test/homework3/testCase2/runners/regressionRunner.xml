@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Suite">
+    <test name="Test Case 2">
+        <parameter name="expectedHeader" value="Logged in as Super User (admin) at Laboratory."> </parameter>
+        <parameter name="changedHeader" value="Logged in as Super User (admin) at Pharmacy."> </parameter>
+        <parameter name="patientName" value="John johnes"> </parameter>
+        <classes>
+            <class name="com.test.homework3.testCase2.tests.TC2HomeTest"> </class>
+            <class name="com.test.homework3.testCase2.tests.TC2PatientRecordTest"> </class>
+        </classes>
+    </test>
+</suite>

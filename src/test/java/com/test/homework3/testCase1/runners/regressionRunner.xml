@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Suite">
+    <test name="Test Case 1">
+        <parameter name="pfizerVaccine" value="pfizer"> </parameter>
+        <parameter name="sputnikVaccine" value="sputnik"> </parameter>
+        <classes>
+            <class name="com.test.homework3.testCase1.tests.TC1LoginTest"> </class>
+            <class name="com.test.homework3.testCase1.tests.TC1CartTest"> </class>
+        </classes>
+    </test>
+</suite>
